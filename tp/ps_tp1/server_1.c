@@ -16,8 +16,17 @@
 
 int main()
 {
-    // TODO
-        
+    printf("Je commence la boucle : ");
+
+    while (1)
+    {
+        printf("L'ID du processus : ", getpid());
+        printf("L'ID du père du processus : ", getppid());
+        printf(rand());
+        sleep(1);
+    }
+
+    printf("Je viens de terminer la boucle");
+
     return EXIT_SUCCESS;
 }
-
